@@ -127,7 +127,7 @@ namespace ConsoleApplication12
                                  Console.WriteLine("enter the new id");
                                 string updatedId = Console.ReadLine();
                                 d.id = updatedId;
-                                d.Register(list,d);
+                                d.Register(list, d);
                                 break;
                             case 2: Console.WriteLine("enter the new name");
                                 string updatedName = Console.ReadLine();
